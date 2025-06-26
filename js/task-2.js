@@ -36,19 +36,46 @@ const getUsersWithFriend = (users, friendName) =>
   
   // Перевірка функції
   console.log(getUsersWithFriend(allUsers, "Briana Decker")); 
-  // Очікувано:
+  
+
+
   // [
   //   { name: "Sharlene Bush", friends: ["Briana Decker", "Sharron Pace"] },
   //   { name: "Sheree Anthony", friends: ["Goldie Gentry", "Briana Decker"] }
   // ]
   
   console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
-  // Очікувано:
-  // [
+  
+  
+ // [
   //   { name: "Elma Head", friends: ["Goldie Gentry", "Aisha Tran"] },
   //   { name: "Sheree Anthony", friends: ["Goldie Gentry", "Briana Decker"] }
   // ]
   
   console.log(getUsersWithFriend(allUsers, "Adrian Cross" )); 
-  // Очікувано: []
   
+  
+  // [
+//   {
+//     name: "Sharlene Bush",
+//     friends: ["Briana Decker", "Sharron Pace"]
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     friends: ["Goldie Gentry", "Briana Decker"]
+//   }
+// ]
+
+console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
+// [
+//   {
+//     name: "Elma Head",
+//     friends: ["Goldie Gentry", "Aisha Tran"]
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     friends: ["Goldie Gentry", "Briana Decker"]
+//   }
+// ]
+
+console.log(getUsersWithFriend(allUsers, "Adrian Cross" )); // []
